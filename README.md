@@ -25,36 +25,29 @@ The answer is simple just translate thier language... right?
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+-HTML
+-CSS
+-JS
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+No installations
 
 # Run
-[commands]
+Open in live server
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![ScreenShot 1](https://ibb.co/fYm5Xhxm)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![ScreenShot 2](https://ibb.co/fYm5Xhxm)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![ScreenShot 3](https://ibb.co/fYm5Xhxm)
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
