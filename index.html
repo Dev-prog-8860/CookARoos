@@ -28,7 +28,11 @@
                             <option value="en">English</option>
                         </select>
                     </div>
-                    <img src="Images/mic-fill.png" alt="Mic">
+                    <button id="swap-languages" class="swap-btn">⇄</button>
+                    <button id="enable-mic" class="mic">
+                        <img src="Images/mic-fill.png" alt="Mic">
+                    </button>
+
                     <div class="output-language">
                         <label for="to-language">To:</label>
                         <select id="to-language">
@@ -40,7 +44,7 @@
 
                 <div class="translation-area">
                     <div class="input-area">
-                        <textarea id="input-text" placeholder="Enter text to translate..."></textarea>
+                        <textarea id="input-text" placeholder=""></textarea>
                     </div>
                     <button id="translate-btn">Translate</button>
                     <div class="output-area">
