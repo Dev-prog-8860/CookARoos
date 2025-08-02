@@ -1,0 +1,146 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f8;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: 600px;
+    top: 40px;
+}
+
+header h1 {
+    position: relative;
+    bottom: 60px;
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+header p {
+    position: relative;
+    bottom: 60px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+main {
+    flex-grow: 1;
+    padding: 2rem 0;
+}
+
+.translation-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.language-selector label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.language-selector select {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    min-width: 120px;
+}
+
+.swap-btn {
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.swap-btn:hover {
+    background-color: #357ABD;
+}
+
+.translation-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-area textarea,
+.output-area textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: inherit;
+}
+
+#translate-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: center;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+#translate-btn:hover {
+    background-color: #357ABD;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
